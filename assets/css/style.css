@@ -145,12 +145,16 @@ main {
     background-blend-mode: soft-light;
     background-size: 150%;
     font-size: 2rem;
-    color: white;
+    color: black;
 }
 
 .flex-item:first-child {
-    min-height: 400px;
-    flex-basis: 100%;
+    min-height: 500px;
+    flex-basis: 40%;
+    background-image: url("/assets/images/calculator.png");
+    background-position: "center";
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .flex-item:hover {
