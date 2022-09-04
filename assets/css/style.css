@@ -194,9 +194,15 @@ main {
     align-items: center;
     height: 100%;
 }
+
 .contact address a {
     color: blue;
     padding: 5px;
     font-size: 1.8rem;
     display: inline-block;
+}
+
+.contact a:hover {
+    background-size: 100% 100%;
+    color: red;
 }
