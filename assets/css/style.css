@@ -13,6 +13,12 @@ body {
     background-color: silver;
 }
 
+body > img {
+    height: 200px;
+    display: block;
+    position: absolute;
+}
+
 .title {
     font-size: 72px;
     background: -webkit-linear-gradient(crimson, purple);
