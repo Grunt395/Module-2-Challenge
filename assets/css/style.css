@@ -156,9 +156,9 @@ main {
 }
 
 .flex-item:first-child {
-    /* min-height: 500px;
-    flex-basis: 40%; */
-    background-image: url("../images/calculator.png");
+    min-height: 500px;
+    flex-basis: 40%;
+    background-image: url("../images/Lunch-clipart-3.jpg");
     background-position: "center";
     background-size: cover;
     background-repeat: no-repeat;
@@ -171,7 +171,7 @@ main {
     background-repeat: no-repeat;
 }
 .flex-item:nth-child(3) {
-    background-image: url("../images/paint.png");
+    background-image: url("../images/calculator.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
